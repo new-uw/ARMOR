@@ -1,0 +1,16 @@
+# Ignore results and build directories
+/builds
+/dependency_libs
+/results/
+/up_results/
+tmp/
+/.vscode
+/lib
+/test_data/keys
+/test_data/up_results
+/test_data/results
+/temp_storage/
+__pycache__/
+/test_data/
+/.pqc_leo_dir_marker.tmp
+/dev-scripts
