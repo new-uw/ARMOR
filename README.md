@@ -1,4 +1,4 @@
-# ARMOR <!-- omit from toc -->
+
 
 ## Supported Hardware and Software
 Platform is the Orion O6, supports the Armv9-A SVE2 and its cryptographic extensionsm and the SVE2 vector length is 128 bits. Evaluation is built on liboqs 0.15.0, oqs-provider 0.10.0, and OpenSSL 3.5.0.
@@ -21,7 +21,7 @@ Platform is the Orion O6, supports the Armv9-A SVE2 and its cryptographic extens
 ## TLS Handshake Test
 
 ### Installation Instructions
-1. cp -r source_lib ../ARMOR/tmp
+1. cp -r source_lib ../anon-sys-2026/tmp
 2. bash ./setup.sh --use-local-sources
 3. rm -rf ./test_data/alg_lists
 4. cp -r ./source_lib/alg_lists ./test_data/alg_lists
